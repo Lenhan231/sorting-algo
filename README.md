@@ -1,5 +1,5 @@
-# Sorting Algorith
+# Sorting Algorithms
+
 ## Basic
--[bubble sorting](./bubblesort.py)
--[quick sort](./quicksort.py)
--
+- [Bubble Sorting](./bubblesort.py)
+- [Quick Sort](./quicksort.py)
