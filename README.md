@@ -1,12 +1,21 @@
-# Bubble Sort
+<!DOCTYPE html>
+<html lang="en">
 
-## Overview
+<body>
 
-Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+<h1>Bubble Sort</h1>
 
-## Implementation
+<h2>Overview</h2>
+<p>
+    Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements,
+    and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+</p>
 
-The `bubblesort.py` file contains a basic implementation of the bubble sort algorithm in Python.
+<h2>Implementation</h2>
+<p>The <code>bubblesort.py</code> file contains a basic implementation of the bubble sort algorithm in Python.</p>
+
+<code>
+    <pre>
 
 ```python
 def bubble_sort(arr):
@@ -19,8 +28,9 @@ def bubble_sort(arr):
             # Swap if the element found is greater than the next element
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-
+```
 # Example usage:
+```python
 if __name__ == "__main__":
     # Sample list
     my_list = [64, 34, 25, 12, 22, 11, 90]
@@ -30,3 +40,8 @@ if __name__ == "__main__":
 
     # Display the sorted list
     print("Sorted array:", my_list)
+```
+ </pre>
+</code>
+</body>
+</html>
