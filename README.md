@@ -14,7 +14,7 @@
 <h2>Implementation</h2>
 <p>The <code>bubblesort.py</code> file contains a basic implementation of the bubble sort algorithm in Python.</p>
 
-<code>
+<blockquote>
     <pre>
     
 ```python
@@ -29,7 +29,13 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 ```
-# Example usage:
+   </pre>
+</blockquote>
+<h3>Example usage:</h3>
+
+<blockquote>
+    <pre>
+
 ```python
 if __name__ == "__main__":
     # Sample list
@@ -40,8 +46,9 @@ if __name__ == "__main__":
 
     # Display the sorted list
     print("Sorted array:", my_list)
-```
- </pre>
-</code>
+```    
+</pre>
+</blockquote>
+
 </body>
 </html>
