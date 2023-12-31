@@ -16,7 +16,7 @@
 
 <code>
     <pre>
-
+    
 ```python
 def bubble_sort(arr):
     n = len(arr)
