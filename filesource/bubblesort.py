@@ -19,7 +19,7 @@ def bubblesort(x,count):
         if x[i]>x[i+1]:
             x[i],x[i+1] = x[i+1],x[i]
             count += 1
-    if count != 0 :
+    if count != 0:
         bubblesort(x,0)
         
 
