@@ -1,16 +1,14 @@
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        pivot = arr[0]
+        left = [x for x in arr[1:] if x <= pivot]
+        right = [x for x in arr[1:] if x > pivot]
+        return quicksort(left) + [pivot] + quicksort(right)
+
 with open("dayso.txt", "r") as ds:
-    x = list(map(int, ds.readline().split()))
-    xcopy = x.copy()
+    arr = list(map(int, ds.readline().split()))
 
-def quicksort(a, b):
-    for i in range(len(a)):
-        if b < a[i]:
-            a.append(a[i])
-            a.pop(i)
-
-def pc(c):
-    for i in range(len(c)):
-        quicksort(x, c[i])
-
-pc(xcopy)
-print(x)
+sorted_arr = quicksort(arr)
+print(sorted_arr)
