@@ -1,6 +1,12 @@
-ds = open("dayso.txt")
-arr = ds.read().split()
+arr = [2, 3, 4, 8, 9, 10, 13, 40, 100]
+def linear(arr,index):
+    for i in range(0, len(arr)):
+        if arr[i] == index:
+            return i
+    return -1
+
 a = int(input())
-for i in range(0,len(arr)):
-    if int(arr[i]) == a:
-        print(i+1)
+if linear(arr,a) == -1:
+    print("Not found")
+else:
+    print(linear(arr,a))        
